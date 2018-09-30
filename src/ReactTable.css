@@ -1,0 +1,76 @@
+/* React Table styles */
+.no-data {
+  border: 1px dotted black;
+  width: 400px;
+  height: 200px;
+  margin: 50px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.react-table {
+  margin: 50px auto;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.react-table thead {
+  background: #eee;
+}
+
+.react-table-th,
+.react-table-td {
+  min-width: 50px;
+  height: 30px;
+  padding: 0;
+  border: 1px solid #aaa;
+}
+
+.react-table-th-span,
+.react-table-td-span {
+  display: block;
+  height: 100%;
+  padding: 10px;
+}
+
+.react-table-th-span,
+input + .react-table-td-span {
+  transform: translateY(-11px);
+}
+
+.checkbox-column {
+  transform: translate(10px, -30px);
+}
+
+.checkbox-row {
+  transform: translate(-35px, 20px);
+}
+
+.control-buttons {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.control-button {
+  color: whitesmoke;
+  background-color: transparent;
+  border: 1px solid #888;
+  border-radius: 3px;
+  margin: 5px;
+  padding: 10px;
+  font-weight: 600;
+}
+
+.add-button {
+  background: #3e61a8;
+}
+
+.export-button {
+  background: #32823f;
+}
+
+.delete-button {
+  background: #cc483f;
+}
